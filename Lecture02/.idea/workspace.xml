@@ -20,16 +20,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="links.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="links.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="295">
+              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="n#p#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#1;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#p#2;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/images.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,6 +61,7 @@
         <option value="$PROJECT_DIR$/tables.html" />
         <option value="$PROJECT_DIR$/escaping.html" />
         <option value="$PROJECT_DIR$/links.html" />
+        <option value="$PROJECT_DIR$/images.html" />
       </list>
     </option>
   </component>
@@ -205,12 +216,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503125057311</updated>
-      <workItem from="1503125060391" duration="5114000" />
+      <workItem from="1503125060391" duration="5574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5114000" />
+    <option name="totallyTimeSpent" value="5574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1020" height="745" extended-state="6" />
@@ -278,31 +289,39 @@
         <state relative-caret-position="310">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <element signature="e#110#114#0" expanded="true" />
-            <element signature="e#124#128#0" expanded="true" />
-            <element signature="e#160#165#0" expanded="true" />
-            <element signature="e#172#180#0" expanded="true" />
-            <element signature="e#181#187#0" expanded="true" />
-            <element signature="e#199#205#0" expanded="true" />
-            <element signature="e#205#211#0" expanded="true" />
-            <element signature="e#211#217#0" expanded="true" />
-            <element signature="e#217#223#0" expanded="true" />
-            <element signature="e#223#229#0" expanded="true" />
-            <element signature="e#285#289#0" expanded="true" />
-            <element signature="e#292#296#0" expanded="true" />
+            <element signature="e#110#114#0" expanded="false" />
+            <element signature="e#124#128#0" expanded="false" />
+            <element signature="e#160#165#0" expanded="false" />
+            <element signature="e#172#180#0" expanded="false" />
+            <element signature="e#181#187#0" expanded="false" />
+            <element signature="e#199#205#0" expanded="false" />
+            <element signature="e#205#211#0" expanded="false" />
+            <element signature="e#211#217#0" expanded="false" />
+            <element signature="e#217#223#0" expanded="false" />
+            <element signature="e#223#229#0" expanded="false" />
+            <element signature="e#285#289#0" expanded="false" />
+            <element signature="e#292#296#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="295">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="n#p#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#p#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
