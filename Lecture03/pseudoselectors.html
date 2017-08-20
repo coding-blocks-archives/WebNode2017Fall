@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #p1:hover {
+            color: blue;
+        }
+        button:hover {
+            color: red;
+        }
+
+        button:active {
+            color: green;
+        }
+
+        p::first-letter {
+            font-size: 20pt;
+        }
+        p::first-line {
+            font-style: italic;
+        }
+
+        ul :nth-child(2) {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+
+<p id="p1">
+    this is para
+    <br>
+    one more line
+</p>
+
+<button>
+    Hello
+</button>
+
+<ul>
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+    <li>four</li>
+</ul>
+
+</body>
+</html>
