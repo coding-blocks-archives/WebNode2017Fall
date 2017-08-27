@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            height: 400px;
+            background-color: azure;
+        }
+        span {
+            display: inline-block;
+            height: 40px;
+            width: 40px;
+            margin: 10px;
+            background-color: darkred;
+            animation-name: bounce;
+            animation-duration: 4s;
+            animation-iteration-count: 100;
+        }
+        @keyframes bounce {
+            0% {
+
+            }
+            50% {
+                transform: translateY(300px);
+            }
+            100% {
+
+            }
+        }
+        #span1 {
+            animation-timing-function: ease-in;
+        }
+        #span2 {
+            animation-timing-function: ease-out;
+        }
+        #span3 {
+            animation-timing-function: linear;
+        }
+        #span4 {
+            animation-timing-function: ease;
+        }
+        #span5 {
+            animation-timing-function: ease-in-out;
+        }
+        #span6 {
+        }
+    </style>
+</head>
+<body>
+
+<div id="container">
+    <span id="span1"></span>
+    <span id="span2"></span>
+    <span id="span3"></span>
+    <span id="span4"></span>
+    <span id="span5"></span>
+    <span id="span6"></span>
+</div>
+
+</body>
+</html>

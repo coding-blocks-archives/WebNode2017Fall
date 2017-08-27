@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Transitions</title>
+    <style>
+        div {
+            width: 60px; height: 60px;
+            transition: 2s ;
+            background-color: cadetblue;
+            margin: 10px;
+        }
+        div:hover + div {
+            transform: translate(150px, 0px);
+            background-color: darkred;
+            height: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+<div id="div4"></div>
+<div id="div5"></div>
+<div id="div6"></div>
+<div id="div7">
+    Hello<br>World
+</div>
+
+</body>
+</html>

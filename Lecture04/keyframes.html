@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Keyframes</title>
+    <style>
+        @keyframes myanim {
+            0% {
+                background-color: crimson;
+                transform: translate(0px, 0px);
+            }
+            25% {
+                background-color: green;
+                transform: translate(0px, 100px);
+            }
+            75% {
+                background-color: dimgray;
+                transform: matrix(2, 0,0, 1, 200, 100);
+            }
+            100% {
+                background-color: blue;
+                transform: translate(200px, 0px);
+            }
+        }
+        div {
+            width: 60px; height: 60px;
+            background-color: crimson;
+            margin: 10px;
+            animation-name: myanim;
+        }
+
+        div:hover + div {
+            animation-name: myanim;
+            animation-duration: 4s;
+            background-color: blue;
+            transform: translateX(200px);
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="div1"></div>
+<div id="div2"></div>
+
+</body>
+</html>
