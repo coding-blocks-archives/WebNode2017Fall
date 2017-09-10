@@ -19,3 +19,4 @@ console.log(d)
 let date = '2017-09-11'
 console.log(date.split('-').join('//'))
 
+console.log("ajsfua")
