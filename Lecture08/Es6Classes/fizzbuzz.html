@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input id="N"><button id="start">PRINT</button>
+<ul id="list">
+
+</ul>
+
+<script>
+    const N = document.getElementById('N');
+    const button = document.getElementById('start');
+    const list = document.getElementById('list')
+    button.onclick = () => {
+        let startTime = new Date().getTime();
+        let data = [];
+        let c3 = 1, c5= 1;
+        for (let i = 1; i <= parseInt(N.value); i++) {
+            let item = document.createElement('li');
+            if (c3 === 3) { item.innerText += "fizz"; c3 = 0 }
+            if (c5 === 5) { item.innerText += "buzz"; c5 = 0 }
+            c3++; c5++;
+            if (item.innerText.length === 0) {item.innerText = i}
+
+            data.push(item)
+        }
+        list.append(...data);
+        console.log(new Date().getTime() - startTime);
+    }
+</script>
+
+</body>
+</html>
