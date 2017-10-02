@@ -12,6 +12,10 @@ app.get('/show/form', (req, res) => {
     res.sendFile(path.join(__dirname, 'files', 'form.html'))
 })
 
+app.get('/show/greet', (req, res) => {
+    res.send(`Hello ${req.query.username}`)
+})
+
 app.listen(2345, () => {
     console.info("Server has started on http://localhost:2345/")
 })
