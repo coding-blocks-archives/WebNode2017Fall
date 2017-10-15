@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+
+<h1>{{heading}}</h1>
+
+<ul>
+    {{#each students as |student|}}
+        <li>
+            Name: <b>{{student.name}}</b>
+            <br>
+            Course: {{student.course}}
+        </li>
+    {{/each}}
+</ul>
+
+</body>
+</html>

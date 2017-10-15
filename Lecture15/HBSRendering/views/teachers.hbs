@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}}</title>
+</head>
+<body>
+
+<h1>{{heading}}</h1>
+
+<ul>
+    {{#each teachers as |teacher|}}
+        <li>
+            Name: <b>{{teacher.name}}</b>
+            <ul>
+                {{#each teacher.subjects as |sub|}}
+                    <li>{{sub}}</li>
+                {{/each}}
+            </ul>
+        </li>
+    {{/each}}
+</ul>
+
+</body>
+</html>
