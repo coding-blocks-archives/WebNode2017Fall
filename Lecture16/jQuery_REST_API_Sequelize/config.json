@@ -1,0 +1,12 @@
+{
+  "SERVER": {
+    "PORT": 3789
+  },
+  "DB": {
+    "USER": "todouser",
+    "DATABASE": "todoapp",
+    "PASSWORD": "todopass",
+    "HOST": "localhost",
+    "DIALECT": "mysql"
+  }
+}
