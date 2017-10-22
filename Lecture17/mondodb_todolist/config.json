@@ -1,0 +1,8 @@
+{
+  "SERVER": {
+    "PORT": 3789
+  },
+  "DB": {
+    "URI": "mongodb://localhost:27017/tododb"
+  }
+}
