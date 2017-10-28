@@ -8,11 +8,29 @@
     <script src="frontend.js"></script>
 </head>
 <body>
-<input type="text" id="message">
-<button id="send">SEND</button>
-<ul id="chats">
+<div id="loginbox">
+    <input type="text" id="username">
+    <button id="login">LOGIN</button>
+</div>
+<div id="musicbox" style="display: none">
+    <button onclick="play(1)">PLAY 1</button>
+    <button onclick="play(2)">PLAY 2</button>
+    <button onclick="play(3)">PLAY 3</button>
+    <button onclick="play(4)">PLAY 4</button>
+</div>
+<div id="chatbox" style="display: none">
+    <input type="text" id="message">
+    <button id="send">SEND</button>
+    <ul id="chats">
 
-</ul>
+    </ul>
+
+</div>
+
+<audio id="a1" src="bell.mp3"></audio>
+<audio id="a2" src="flutter.mp3"></audio>
+<audio id="a3" src="harp.mp3"></audio>
+<audio id="a4" src="rumble.mp3"></audio>
 
 </body>
 </html>
