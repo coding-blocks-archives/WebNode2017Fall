@@ -10,9 +10,10 @@ route.get('/secret', (req, res) => {
     // TODO: make sure user is logged in
     // res.render('secret', {user: <put username here>})
     let loginCookie = cp.getCookie(req.header('Cookie'), 'login')
-    if (users[loginCookie]) {
+    let user = users.getUserWithToken(loginCookie)
+    if (user) {
         return res.render('secret', {
-            user: users[loginCookie].username
+            user: user.username
         })
     }
     res.send("Not authorized")

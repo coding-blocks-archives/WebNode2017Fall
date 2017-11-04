@@ -4,11 +4,12 @@ const users = require('../data/users')
 route.get('/', (r,s) => s.render('login'))
 
 route.post('/', (req, res) =>{
-    let user = users[req.body.username]
+    let user = users.getUser(req.body.username)
     if (!user) {
         return res.redirect('/login')
     }
-    res.header('Set-Cookie', `login=${user.username}`)
+    let newToken = users.createToken(user.username)
+    res.header('Set-Cookie', `login=${newToken}`)
     res.redirect('/secret')
 })
 
