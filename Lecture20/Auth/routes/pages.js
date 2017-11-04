@@ -7,13 +7,18 @@ route.get('/', (req, res) => {
 })
 
 route.get('/secret', (req, res) => {
-    // TODO: make sure user is logged in
-    // res.render('secret', {user: <put username here>})
-    let loginCookie = cp.getCookie(req.header('Cookie'), 'login')
-    let user = users.getUserWithToken(loginCookie)
-    if (user) {
+
+    if (req.user) {
         return res.render('secret', {
-            user: user.username
+            user: req.user.username
+        })
+    }
+    res.send("Not authorized")
+})
+route.get('/password', (req, res) => {
+    if (req.user) {
+        return res.render('secret', {
+            user: req.user.password
         })
     }
     res.send("Not authorized")
